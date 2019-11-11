@@ -9,6 +9,7 @@ const Bootstrap = () => {
     return (
       <BrowserRouter>
         <Route path="/" component={App} />
+        <Route path="/notes-react" component={App} />
       </BrowserRouter>
     );
   };
