@@ -2,24 +2,30 @@
   "name": "notes",
   "version": "0.1.0",
   "private": true,
-
-  "homepage": "https://underscoreanuj.github.io/notes-react",
-
+  "homepage": "https://underscoreanuj.github.io/notes-react/",
   "dependencies": {
+    "firebase": "^7.3.0",
+    "firebaseui": "^4.2.0",
     "gh-pages": "^2.1.1",
     "react": "^16.11.0",
+    "react-awesome-modal": "^2.0.5",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-firebaseui": "^4.0.0",
+    "react-image": "^2.2.1",
+    "react-masonry-component": "^6.2.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-skylight": "^0.5.1",
+    "react-transition-group": "^1.2.0",
+    "reactjs-popup": "^1.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bootstrap": "^4.3.1"
   }
 }

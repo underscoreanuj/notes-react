@@ -1,0 +1,28 @@
+.composer-container {
+  max-width: 500px;
+  margin: 0 auto 1rem;
+  border-radius: 25px;
+}
+
+.composer-container.edit {
+  width: 700px;
+}
+
+.delbtn:hover {
+  background-color: rgba(220, 20, 60, 0.336);
+}
+
+.composer-container.edit .note-content {
+  min-height: 100px;
+}
+
+.input-form {
+  font-family: 'Roboto Slab', serif;
+  margin: 0.5rem;
+}
+
+.actions {
+  position: relative;
+  font-size: 12px;
+  text-align: right;
+}
