@@ -2,16 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
 const Bootstrap = () => {
     return (
       <BrowserRouter>
-        <Switch>
-        <Route path="/" component={App} />
         <Route path="/notes-react" component={App} />
-        </Switch>
       </BrowserRouter>
     );
   };
