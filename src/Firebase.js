@@ -8,14 +8,14 @@ import Img from 'react-image'
 
 
 const config = {
-    apiKey: "AIzaSyCg4kjjppXHdL2NlgvYVSwUITRip6Uuq68",
-    authDomain: "notes-react-7aad5.firebaseapp.com",
-    databaseURL: "https://notes-react-7aad5.firebaseio.com",
-    projectId: "notes-react-7aad5",
-    storageBucket: "notes-react-7aad5.appspot.com",
-    messagingSenderId: "745029342191",
-    appId: "1:745029342191:web:69ac6c2b5138af0daedc1a",
-    measurementId: "G-YHYJZZ5MHN"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 
 firebase.initializeApp(config);
